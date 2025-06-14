@@ -1,0 +1,13 @@
+# Core dependencies
+numpy
+opencv-python
+matplotlib
+
+# TensorFlow and Keras (includes all keras modules used)
+tensorflow
+
+# Scikit-learn for metrics
+scikit-learn
+
+# Streamlit for web app
+streamlit
