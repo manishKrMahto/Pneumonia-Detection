@@ -34,13 +34,14 @@ chest_xray/
 ````
 
 ## First 16 Pneumonia x-rays
-<img src = "images/first 16 Pneumonia images.png" alt = "first 16 pneumonia images from train folder"></img>
+<!-- <img src = "images/first 16 Pneumonia images.png" alt = "first 16 pneumonia images from train folder"></img> -->
+![first 16 pneumonia images from train folder](images/first%2016%20Pneumonia%20images.png)
 
 ---
 
 ## First 16 Normal x-rays
-<img src = "images/first 16 Normal images.png" alt = "first 16 Normal images from train folder"></img>
-
+<!-- <img src = "images/first 16 Normal images.png" alt = "first 16 Normal images from train folder"></img> -->
+![first 16 Normal images from train folder](images/first%2016%20Normal%20images.png)
 
 
 - The dataset is **imbalanced**, with significantly more Pneumonia cases than Normal.
@@ -87,9 +88,8 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Test: 73.85%
 
 **CNN History**
-<img src = "images/CNN history.png" alt ="CNN history"></img>
-
----
+<!-- <img src = "images/CNN history.png" alt ="CNN history"></img> -->
+![CNN history](images/CNN%20history.png)
 
 ### 2. VGG19 (Transfer Learning)
 
@@ -105,8 +105,8 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Test: 82.44%
 
 **VGG19 History**
-<img src = "images/VGG19 dense history.png" alt ="VGG19 dense history"></img>
-
+<!-- <img src = "images/VGG19 dense history.png" alt ="VGG19 dense history"></img> -->
+![VGG19 dense history](images/VGG19%20dense%20history.png)
 ---
 
 ### 3. VGG19 (Fine-Tuned)
@@ -121,9 +121,8 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Test: 92.25%
 
 **CNN History**
-<img src = "images/VGG19 Fine-Tune history.png" alt ="VGG19 Fine-Tune history"></img>
-
-
+<!-- <img src = "images/VGG19 Fine-Tune history.png" alt ="VGG19 Fine-Tune history"></img> -->
+![VGG19 Fine-Tune history](images/VGG19%20Fine-Tune%20history.png)
 
 ---
 
@@ -144,7 +143,8 @@ Prediction: PNEUMONIA
 Confidence: 95.23%
 ````
 
-<img src ="images/frontend.jpg" alt = "frontend streamlit picture"></img>
+<!-- <img src ="images/frontend.jpg" alt = "frontend streamlit picture"></img> -->
+![frontend streamlit picture](images/frontend.jpg)
 
 ---
 
