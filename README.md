@@ -34,18 +34,19 @@ chest_xray/
 ````
 
 ## First 16 Pneumonia x-rays
-<!-- <img src = "images/first 16 Pneumonia images.png" alt = "first 16 pneumonia images from train folder"></img> -->
-![first 16 pneumonia images from train folder](images/first_16_Pneumonia_images.png)
+<!-- <img src = "Images/first 16 Pneumonia images.png" alt = "first 16 pneumonia images from train folder"></img> -->
+![first 16 pneumonia images from train folder](Images/first_16_Pneumonia_images.png)
 
 ---
 
 ## First 16 Normal x-rays
-<!-- <img src = "images/first 16 Normal images.png" alt = "first 16 Normal images from train folder"></img> -->
-![first 16 Normal images from train folder](images/first_16_Normal_images.png)
+<!-- <img src = "Images/first 16 Normal images.png" alt = "first 16 Normal images from train folder"></img> -->
+![first 16 Normal images from train folder](Images/first_16_Normal_images.png)
 
 
 - The dataset is **imbalanced**, with significantly more Pneumonia cases than Normal.
-<img src = "images/train imbalance classes.png" alt ="train imbalance class"></img>
+<img src = "Images/train imbalance classes.png" alt ="train imbalance class"></img>
+![train imbalance class](Images/train imbalance classes.png)
 ---
 
 ## 🧪 Preprocessing and Augmentation
@@ -88,8 +89,8 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Test: 73.85%
 
 **CNN History**
-<!-- <img src = "images/CNN history.png" alt ="CNN history"></img> -->
-![CNN history](images/CNN_history.png)
+<!-- <img src = "Images/CNN history.png" alt ="CNN history"></img> -->
+![CNN history](Images/CNN_history.png)
 
 ### 2. VGG19 (Transfer Learning)
 
@@ -105,8 +106,8 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Test: 82.44%
 
 **VGG19 History**
-<!-- <img src = "images/VGG19 dense history.png" alt ="VGG19 dense history"></img> -->
-![VGG19 dense history](images/VGG19_dense_history.png)
+<!-- <img src = "Images/VGG19 dense history.png" alt ="VGG19 dense history"></img> -->
+![VGG19 dense history](Images/VGG19_dense_history.png)
 ---
 
 ### 3. VGG19 (Fine-Tuned)
@@ -121,8 +122,8 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Test: 92.25%
 
 **CNN History**
-<!-- <img src = "images/VGG19 Fine-Tune history.png" alt ="VGG19 Fine-Tune history"></img> -->
-![VGG19 Fine-Tune history](images/VGG19_Fine_Tune_history.png)
+<!-- <img src = "Images/VGG19 Fine-Tune history.png" alt ="VGG19 Fine-Tune history"></img> -->
+![VGG19 Fine-Tune history](Images/VGG19_Fine_Tune_history.png)
 
 ---
 
@@ -143,8 +144,8 @@ Prediction: PNEUMONIA
 Confidence: 95.23%
 ````
 
-<!-- <img src ="images/frontend.jpg" alt = "frontend streamlit picture"></img> -->
-![frontend streamlit picture](images/frontend.jpg)
+<!-- <img src ="Images/frontend.jpg" alt = "frontend streamlit picture"></img> -->
+![frontend streamlit picture](Images/frontend.jpg)
 
 ---
 
