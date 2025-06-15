@@ -78,6 +78,7 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Fully connected layers: 512 → 128 → Output(2)
 * Regularization: Dropout(0.3)
 * **EarlyStopping** and **ReduceLROnPlateau** used for training control
+* **5.17M+** parameters
 
 **Accuracy**:
 
@@ -95,6 +96,7 @@ Images resized to **128x128** and loaded using `flow_from_directory`.
 * Base model: VGG19 with frozen layers
 * Custom Dense Head: 4096 → 2048 → 1024 → Output(2)
 * Dropout(0.2) between layers
+* **64M+** parameters
 
 **Accuracy**:
 
