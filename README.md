@@ -45,8 +45,8 @@ chest_xray/
 
 
 - The dataset is **imbalanced**, with significantly more Pneumonia cases than Normal.
-<img src = "Images/train imbalance classes.png" alt ="train imbalance class"></img>
-![train imbalance class](Images/train imbalance classes.png)
+<!-- <img src = "Images/train imbalance classes.png" alt ="train imbalance class"></img> -->
+![train imbalance class](Images/train_imbalance_classes.png)
 ---
 
 ## 🧪 Preprocessing and Augmentation
